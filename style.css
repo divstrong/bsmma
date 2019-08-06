@@ -1,0 +1,41 @@
+* {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000;
+	font-family: 'Gotham', 'Open Sans', sans-serif
+}
+
+img {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	z-index: 0;
+}
+
+a {
+	position: relative;
+	display: block;
+	border-radius: 10px;
+	background: #aa0202;
+	color: #fff;
+	padding: 1% 2%;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3rem;
+	font-style: italic;
+	cursor: pointer;
+	width: 35%;
+	margin: -6% auto 6% auto;
+	z-index: 10;
+}
+
+a:hover {
+	background: #fff;
+	color: #000;
+}
